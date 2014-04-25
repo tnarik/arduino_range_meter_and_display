@@ -9,7 +9,6 @@
 #include "Arduino.h"
 //add your includes for the project arduino_range_meter_and_display here
 
-
 //end of add your includes here
 #ifdef __cplusplus
 extern "C" {
@@ -21,6 +20,7 @@ void setup();
 #endif
 
 //add your function definitions for the project arduino_range_meter_and_display here
+int pwm_val ();
 
 
 
